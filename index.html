@@ -11,16 +11,22 @@
   <link href="/src/style.css" rel="stylesheet">
 </head>
 
-<body>
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+<body class="font-inter h-screen flex items-center justify-center bg-gray-900">
+  <div class="card w-[327px] md:w-sm bg-gray-800 p-6 flex flex-col gap-6 items-center">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="profile picture" class="w-[88px] rounded-full">
+    <div class="name-location">
+      <h3>Jessica Randall</h3>
+      <p>London, United Kingdom</p>
+    </div>
+    <p class="font-s">"Front-end developer and avid reader."</p>
+    <div class="links w-full flex flex-col gap-4 text-center">
+      <a class="text-white p-3 bg-gray-700 font-bold text-sm leading-6 hover:bg-green hover:text-gray-800 transition-all duration-300" href="#">GitHub</a>
+      <a class="text-white p-3 bg-gray-700 font-bold text-sm leading-6 hover:bg-green hover:text-gray-800 transition-all duration-300" href="#">Frontend Mentor</a>
+      <a class="text-white p-3 bg-gray-700 font-bold text-sm leading-6 hover:bg-green hover:text-gray-800 transition-all duration-300" href="#">LinkedIn</a>
+      <a class="text-white p-3 bg-gray-700 font-bold text-sm leading-6 hover:bg-green hover:text-gray-800 transition-all duration-300" href="#">Twitter</a>
+      <a class="text-white p-3 bg-gray-700 font-bold text-sm leading-6 hover:bg-green hover:text-gray-800 transition-all duration-300" href="#">Instagram</a>
+    </div>
+  </div>
 
   <script type="module" src="/src/main.js"></script>
 </body>
